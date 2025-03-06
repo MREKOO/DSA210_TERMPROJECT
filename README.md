@@ -3,6 +3,7 @@
 ## Table of Contents
 * [Project Overview](#project-overview)
 * [Collection of Data](#collection-of-data)
+* [Description of the Tools](#description-of-the-tools)
 * [Description of the Data Set](#description-of-the-data-set)
 
 ---
