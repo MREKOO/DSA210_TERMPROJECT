@@ -45,7 +45,7 @@ The **JSON file** imported from **chess.com** includes the relevant data:
   - **Clock at Each Move:** The remaining time for each player at every move is included in the PGN. Can be used to determine average time taken to make the moves, time pressure rate, etc.
   - Raw Game Data: The record of the moves made. The notation is encoded according to globally accepted encoding. E.g. *1. Nf3 d5, encodes that in the 1st move, white played knight (N) to f3 square, then black played pawn to d5 in response*.
 - **FEN:** A notation that represents the position of all pieces on the board at a spesific moment during the game. Unlike PGN it does not contain the full game.
-- **Time Control:** The time limit given to each player for the entire game to complete all their moves.
+- **Time Control:** The time limit given to each player for the entire game to complete all their moves.su
 - **Time Class:** Specifies the time control format, *bullet* (1-3 min for each player), *blitz* (3-5 min for each player), or *rapid* (10-60min min for each player).
 - **Result:** The outcome of the game. Not only win, loss, or draw but also the reason of the outcome will be included. E.g. *timeout, resigned, insufficient material, stalemate, checkmate*, etc.
 - **ECO:** ECO (Encyclopedia of Chess Openings) encodes the opening (generally a theoretical sequence of moves which are played in the beginning of the game, nearly all of the sequences are studied and named previously) of a chess game. E.g. *French Defense, Two Knights Variation*.
@@ -62,6 +62,21 @@ The enriched data with the analysis of **Stockfish** will include:
 ## Hypotheses
 
 The analyzed data will be used to support or deny the following statements:
+
+1️⃣ The time I spend on each move in the games I won follows **a unique, distinct pattern** when the moves of the whole game are divided into equal phases, and this pattern differs significantly from the time distribution pattern observed in games I lost. 
+
+- This **signature pattern**, if confirmed, can serve as a predictive indicator of my game outcome during play, giving me a powerful tool to assess my **winning probability** based on how closesly my current time usage matches my established **winning pattern**.
+- Does this **pattern** change with different **time controls** or not?
+
+2️⃣ **Defensive and slow openings** often lead to games with **lower average centipawn loss** and **higher win** conversion, while **aggresive and sacrificial openings** result in **higher centipawn loss**. Despite starting with the advantage as White in gambit openings, my overall **win rate is higher** and **average centipawn loss is lower** when playing defensive with Black pieces.
+
+3️⃣ The average time I spend per move **varies** across different time controls, even when we **normalize** to an equivalent rate. For example, **20 seconds per move** in a **10-minute game**, is equivalent to **2 seconds per move** in a **1-minute game** by ratio.
+
+- This difference might be the result of a **psychological tendency to speed up my move decisions in faster time controls**, even when the rate per move (after normalized) should theoratically remain same regardless of the time control.
+
+4️⃣ 
+5️⃣
+
 
 
 ---
