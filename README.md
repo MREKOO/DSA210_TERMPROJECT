@@ -1,6 +1,6 @@
 # DSA210 Term Project - Analysis of my Chess Games
 
-This is the term project of **Ekin Gülhan** for the **DSA210** course offered by **Sabancı University**. In this project, I aim to apply **data science techniques** to analyze my own data of **online chess game data** and test my hypotheses.
+This is the term project of **Ekin Gülhan** for the **DSA210** course offered by **Sabancı University**. In this project, I aim to apply **data science techniques** to analyze my own data of **online chess games** and test my hypotheses.
 
 
 ## Project Overview 🔗
