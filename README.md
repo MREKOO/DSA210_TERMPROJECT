@@ -54,8 +54,25 @@ The **JSON file** imported from **chess.com** includes the relevant data:
 - **FEN:** A notation that represents the position of all pieces on the board at a spesific moment during the game. Unlike PGN it does not contain the full game.
 - **Time Control:** The time limit given to each player for the entire game to complete all their moves.su
 - **Time Class:** Specifies the time control format, *bullet* (1-3 min for each player), *blitz* (3-5 min for each player), or *rapid* (10-60min min for each player).
+- **Rating:** Shows the strength of a player's understanding of the game of chess.
 - **Result:** The outcome of the game. Not only win, loss, or draw but also the reason of the outcome will be included. E.g. *timeout, resigned, insufficient material, stalemate, checkmate*, etc.
 - **ECO:** ECO (Encyclopedia of Chess Openings) encodes the opening (generally a theoretical sequence of moves which are played in the beginning of the game, nearly all of the sequences are studied and named previously) of a chess game. E.g. *French Defense, Two Knights Variation*.
+
+Below is an example table of chess.com's raw data:
+                               
+| Parameter        | Game 1                                                       | Game 2                                                       |
+|------------------|--------------------------------------------------------------|--------------------------------------------------------------|
+| **PGN**          | `[Event "Live Chess"]\n[Site "Chess.com"]\n[Date "2024.01.08"]\n[Time "15:20:30"]\n[White "Player X"]\n[Black "Player Y"]\n[Result "1-0"]\n1. e4 {[%clk 0:01:00]} 1... e5 {[%clk 0:00:59.5]} 2. d4 {[%clk 0:00:59.4]} 2... exd4 {[%clk 0:00:58.6]} 3. c3 {[%clk 0:00:58.5]} 3... dxc3 {[%clk 0:00:57.7]} ...` | `[Event "Live Chess"]\n[Site "Chess.com"]\n[Date "2024.01.08"]\n[Time "15:35:10"]\n[White "Player X"]\n[Black "Player Y"]\n[Result "0-1"]\n1. d4 {[%clk 0:01:00]} 1... e6 {[%clk 0:00:59.7]} 2. e3 {[%clk 0:00:59.9]} 2... d5 {[%clk 0:00:59]} 3. c4 {[%clk 0:00:59.8]} 3... c5 {[%clk 0:00:57.6]} 4. Qb3 {[%clk 0:00:59.4]} 4... Nc6 {[%clk 0:00:56.6]} ...` |
+| **FEN**          | `rnbqkbnr/pppp1ppp/8/3P4/8/8/PPP2PPP/R1BQKBNR w KQkq - 0 4`   | `rnbqkbnr/ppp1pppp/8/3P4/3N4/8/PPP1PPPP/R1BQKBNR w KQkq - 0 4`   |
+| **Time Control** | 60 secs                                                           | 60 secs                                                           |
+| **Time Class**   | Bullet                                                       | Bullet                                                       |
+| **Player X**     | Rating: 1311                                                  | Rating: 1307                                                  |
+| **Player Y**     | Rating: 1333                                                  | Rating: 1303                                                  |
+| **ECO**          | [Danish Gambit](https://www.chess.com/openings/Danish-Gambit-3...dxc3) | [Queen's Gambit Declined](https://www.chess.com/openings/Queens-Gambit-Declined-3.e3) |
+| **Result**  | Player X won by checkmate                                    | Player Y won on time                                         |
+
+
+
 
 The enriched data with the analysis of **Stockfish** will include:
 
