@@ -11,7 +11,9 @@ This project focuses on exctracting and analyzing online chess game data from **
 
 ## Motivation and Objectives ♟️
 
+The motivation behind this project is to apply **data science techniques** to analyze **my own chess games** and gain insights into my games. While collecting and examining my data, I will be developing **data science skills** and learning the subject better with **hands-on experience**. 
 
+I aim to **collect the necessary data**, **visualize it** and **conduct exploratory data analysis methods** through my project. Then I will be applying **hypothesis tests**, and lastly **machine learning methods and techniques** on my data.
 
 ---
 
@@ -64,7 +66,7 @@ The enriched data with the analysis of **Stockfish** will include:
 
 ---
 
-## Hypotheses
+## Hypotheses 💡
 
 The analyzed data will be used to support or deny hypotheses like:
 
@@ -92,5 +94,5 @@ The analyzed data will be used to support or deny hypotheses like:
 - This difference might be the result of a **psychological tendency to speed up my move decisions in faster time controls**, even when the rate per move (after normalized) should theoratically remain same regardless of the time control.
 
 ---
-*This project utilizes data from chess.com and lichess.org, analysis powered by Stockfish.*
+*This project utilizes data from chess.com and lichess.org, analysis powered by Stockfish, with assistance from ClaudeAI and ChatGPT*
 
