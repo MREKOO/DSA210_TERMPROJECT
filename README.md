@@ -7,6 +7,11 @@ This is the term project of **Ekin Gülhan** for the **DSA210** course offered b
 
 This project focuses on exctracting and analyzing online chess game data from **chess.com** and **lichess.org**. Using **Python** and various data science techniques, I will evaluate my own gameplay patterns, identify the correlations between different parameters, and validate spesific hypotheses about my performance trends.
 
+---
+
+## Motivation and Objectives ♟️
+
+
 
 ---
 
@@ -61,23 +66,30 @@ The enriched data with the analysis of **Stockfish** will include:
 
 ## Hypotheses
 
-The analyzed data will be used to support or deny the following statements:
+The analyzed data will be used to support or deny hypotheses like:
 
-1️⃣ The time I spend on each move in the games I won follows **a unique, distinct pattern** when the moves of the whole game are divided into equal phases, and this pattern differs significantly from the time distribution pattern observed in games I lost. 
+### 1️⃣ Signature Time Pattern of the Winning Games
+
+***Null Hypothesis (H₀):*** There is **no distinct, unique pattern** in the time I spend on each move in the games I won when the moves of the whole game are divided into equal phases. The time distribution pattern in winning games **does not differ** significantly from the time distribution pattern observed in games I lost. Any observed difference between winning and losing games is **due to random variation** rather than consistent patterns.
+
+***Alternative Hypothesis (H₁):*** The time I spend on each move in the games I won follows **a unique, distinct pattern** when the moves of the whole game are divided into equal phases, and this pattern differs significantly from the time distribution pattern observed in games I lost. 
 
 - This **signature pattern**, if confirmed, can serve as a predictive indicator of my game outcome during play, giving me a powerful tool to assess my **winning probability** based on how closesly my current time usage matches my established **winning pattern**.
 - Does this **pattern** change with different **time controls** or not?
 
-2️⃣ **Defensive and slow openings** often lead to games with **lower average centipawn loss** and **higher win** conversion, while **aggresive and sacrificial openings** result in **higher centipawn loss**. Despite starting with the advantage as White in gambit openings, my overall **win rate is higher** and **average centipawn loss is lower** when playing defensive with Black pieces.
+### 2️⃣ Defensive vs. Aggresive Gameplay
 
-3️⃣ The average time I spend per move **varies** across different time controls, even when we **normalize** to an equivalent rate. For example, **20 seconds per move** in a **10-minute game**, is equivalent to **2 seconds per move** in a **1-minute game** by ratio.
+***Null Hypothesis (H₀):*** There is **no significant difference** in the **average centipawn loss** and **win rate** between **defensive and slow openings** and **aggresive and sacrificial openings**.
+
+***Alternative Hypothesis (H₁):*** **Defensive and slow openings** often lead to games with **lower average centipawn loss** and **higher win** conversion, while **aggresive and sacrificial openings** result in **higher centipawn loss**. Despite starting with the advantage as White in gambit openings, my overall **win rate is higher** and **average centipawn loss is lower** when playing defensive with Black pieces.
+
+### 3️⃣ Different Time Control, Different Ratio
+
+***Null Hypothesis (H₀):*** The **average time per move does not significantly differ** across different time controls, even after normalized to an equivalent rate (e.g. **20 seconds per move** in a **10-minute game** vs. **2 seconds per move** in a **1-minute game**). Any observed difference in the ratios are caused by **random variation and some external factors**, and there is **no psychological tendency** to play faster in shorter time controls.
+
+***Alternative Hypothesis (H₁):*** The average time I spend per move **varies** across different time controls, even when we **normalize** to an equivalent rate. For example, **20 seconds per move** in a **10-minute game**, is equivalent to **2 seconds per move** in a **1-minute game** by ratio.
 
 - This difference might be the result of a **psychological tendency to speed up my move decisions in faster time controls**, even when the rate per move (after normalized) should theoratically remain same regardless of the time control.
-
-4️⃣ 
-5️⃣
-
-
 
 ---
 *This project utilizes data from chess.com and lichess.org, analysis powered by Stockfish.*
