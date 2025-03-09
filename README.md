@@ -1,10 +1,10 @@
 # DSA210 Term Project
 
-## Table of Contents
-* [Project Overview](#project-overview)
-* [Collection of Data](#collection-of-data)
-* [Description of the Tools](#description-of-the-tools)
-* [Description of the Data Set](#description-of-the-data-set)
+ ## Table of Contents
+ * [Project Overview](#project-overview)
+ * [Collection of Data](#collection-of-data)
+ * [Description of the Tools](#description-of-the-tools-)
+ * [Description of the Data Set](#description-of-the-data-set-)
 
 ---
 
@@ -22,7 +22,7 @@ Once I pull this data, using lichess.org's (again a famous non-profit online che
 
 ---
 
-## Description of the Tools
+## Description of the Tools 🪛
 
 All the libraries and tools will be use in accordance with Python and their APIs.
 
@@ -36,7 +36,7 @@ All the libraries and tools will be use in accordance with Python and their APIs
 
 ---
 
-## Description of the Data Set
+## Description of the Data Set 📝
 
 The JSON file imported from chess.com includes the relevant data:
 
@@ -45,10 +45,10 @@ The JSON file imported from chess.com includes the relevant data:
   - **Clock at Each Move:** The remaining time for each player at every move is included in the PGN. Can be used to determine average time taken to make the moves, time pressure rate, etc.
   - Raw Game Data: The record of the moves made. The notation is encoded according to globally accepted encoding. E.g: *1. Nf3 d5, encodes that in the 1st move, white played knight (N) to f3 square, then black played pawn to d5 in response*.
 - **FEN:** A notation that represents the position of all pieces on the board at a spesific moment during the game. Unlike PGN it does not contain the full game.
-- **time_control:** The time limit given to each player for the entire game to complete all their moves.
-- **time_class:** Specifies the time control format, *bullet* (1-3 min for each player), *blitz* (3-5 min for each player), or *rapid* (10-60min min for each player).
-- **result:** The outcome of the game. Not only win, loss, or draw but also the reason of the outcome will be included. E.g. *timeout, resigned, insufficient material, stalemate, checkmate*, etc.
-- **eco:** ECO (Encyclopedia of Chess Openings) encodes the opening (generally a theoretical sequence of moves which are played in the beginning of the game, nearly all of the sequences are studied and named previously) of a chess game. E.g. *French Defense, Two Knights Variation*.
+- **Time Control:** The time limit given to each player for the entire game to complete all their moves.
+- **Time Class:** Specifies the time control format, *bullet* (1-3 min for each player), *blitz* (3-5 min for each player), or *rapid* (10-60min min for each player).
+- **Result:** The outcome of the game. Not only win, loss, or draw but also the reason of the outcome will be included. E.g. *timeout, resigned, insufficient material, stalemate, checkmate*, etc.
+- **ECO:** ECO (Encyclopedia of Chess Openings) encodes the opening (generally a theoretical sequence of moves which are played in the beginning of the game, nearly all of the sequences are studied and named previously) of a chess game. E.g. *French Defense, Two Knights Variation*.
 
 The enriched data with the analysis of Stockfish will include:
 
