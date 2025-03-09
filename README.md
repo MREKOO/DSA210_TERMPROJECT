@@ -111,5 +111,5 @@ The analyzed data will be used to support or deny hypotheses like:
 - This difference might be the result of a **psychological tendency to speed up my move decisions in faster time controls**, even when the rate per move (after normalized) should theoratically remain same regardless of the time control.
 
 ---
-*This project utilizes data from chess.com and lichess.org, analysis powered by Stockfish, with assistance from ClaudeAI and ChatGPT*
+*This project utilizes data from chess.com and lichess.org, analysis powered by Stockfish, assistance from ClaudeAI and ChatGPT*
 
