@@ -50,7 +50,7 @@ The **JSON file** imported from **chess.com** includes the relevant data:
 - **PGN:** PGN (Portable Game Notation) is a text format used globally to record chess games, including moves with the time remaining, and some other metadata.
   - **Date and Time:** From the PGN of each game, the date and time (GMT) the respective game took place will be extracted.
   - **Clock at Each Move:** The remaining time for each player at every move is included in the PGN. Can be used to determine average time taken to make the moves, time pressure rate, etc.
-  - Raw Game Data: The record of the moves made. The notation is encoded according to globally accepted encoding. E.g. *1. Nf3 d5, encodes that in the 1st move, white played knight (N) to f3 square, then black played pawn to d5 in response*.
+  - **Raw Game Data:** The record of the moves made. The notation is encoded according to the globally accepted encoding. E.g. *1. Nf3 d5, encodes that in the 1st move, white played knight (N) to f3 square, then black played pawn to d5 in response*.
 - **FEN:** A notation that represents the position of all pieces on the board at a spesific moment during the game. Unlike PGN it does not contain the full game.
 - **Time Control:** The time limit given to each player for the entire game to complete all their moves.su
 - **Time Class:** Specifies the time control format, *bullet* (1-3 min for each player), *blitz* (3-5 min for each player), or *rapid* (10-60 min for each player).
