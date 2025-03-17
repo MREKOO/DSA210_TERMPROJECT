@@ -29,6 +29,24 @@ After retrieving the raw game data, using **lichess.org's (a widely used non-pro
 
 ---
 
+## Exploratory Data Analysis (EDA) 🧩
+
+Before dividing into statistical testing, I will conduct **exploratory data analysis (EDA)** to better understand my chess data. This process will involve:
+
+- **Summarizing the dataset:** Understanding **distributions**, **correlations**, **relations** between the paramaters of the data.
+- **Handling missing values** and **data cleaning** to ensure the reliability of my analysis.
+- **Identifying outliers and anomalies** that may indicate unusual performance trends, and therefore damage the hypothesis testing process by potentially driving the analyze into wrong conclusions.
+
+---
+
+## Data Visualization 🎨
+
+To understand the behaviour of the data, I will use **data visualization techniques** to uncover the trends and correlations. The visualization methods will include; **histograms**,  **boxplots**, **scatter plots**, **heatmaps**, **time-series graphs**, and more. 
+
+With the visualization, I will be able to explore the data, determine how to proceed and decide what to do next. **Data visualization** will also be the key process to present and explain my analysis in an organized fashion.
+
+---
+
 ## Description of the Tools 🪛
 
 All the libraries and tools will be used in accordance with **Python** and their **API**s.
@@ -109,6 +127,13 @@ The analyzed data will be used to support or deny hypotheses like:
 ***Alternative Hypothesis (H₁):*** The average time I spend per move **varies** across different time controls, even when we **normalize** to an equivalent rate. For example, **20 seconds per move** in a **10-minute game**, is equivalent to **2 seconds per move** in a **1-minute game** by ratio.
 
 - This difference might be the result of a **psychological tendency to speed up my move decisions in faster time controls**, even when the rate per move (after normalized) should theoratically remain same regardless of the time control.
+
+---
+
+## Machine Learning Applications and Future Work 🤖
+
+After collecting data, conducting EDA, and applying hypothesis tests, I will be using **machine learning** applications to investigate potential predictive models based on the data, and the results of the hypotheses.
+
 
 ---
 *This project utilizes data from chess.com and lichess.org, analysis powered by Stockfish, assistance from ClaudeAI and ChatGPT*
