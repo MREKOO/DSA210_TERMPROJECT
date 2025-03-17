@@ -41,7 +41,7 @@ Before dividing into statistical testing, I will conduct **exploratory data anal
 
 ## Data Visualization 🎨
 
-To understand the behaviour of the data, I will use **data visualization techniques** to uncover the trends and correlations. The visualization methods will include; **histograms**,  **boxplots**, **scatter plots**, **heatmaps**, **time-series graphs**, and more. 
+To understand the behaviour of my data, uncover trends and correlations; I will use **data visualization techniques**. The visualization methods will include; **histograms**,  **boxplots**, **scatter plots**, **heatmaps**, **time-series graphs**, and more. 
 
 With the visualization, I will be able to explore the data, determine how to proceed and decide what to do next. **Data visualization** will also be the key process to present and explain my analysis in an organized fashion.
 
