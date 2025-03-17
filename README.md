@@ -33,7 +33,7 @@ After retrieving the raw game data, using **lichess.org's (a widely used non-pro
 
 Before dividing into statistical testing, I will conduct **exploratory data analysis (EDA)** to better understand my chess data. This process will involve:
 
-- **Summarizing the dataset:** Understanding **distributions**, **correlations**, **relations** between the paramaters of the data.
+- **Summarizing the dataset,** understanding **distributions**, **correlations**, **relations** between the paramaters of the data.
 - **Handling missing values** and **data cleaning** to ensure the reliability of my analysis.
 - **Identifying outliers and anomalies** that may indicate unusual performance trends, and therefore damage the hypothesis testing process by potentially driving the analyze into wrong conclusions.
 
@@ -132,7 +132,7 @@ The analyzed data will be used to support or deny hypotheses like:
 
 ## Machine Learning Applications and Future Work 🤖
 
-After collecting data, conducting EDA, and applying hypothesis tests, I will be using **machine learning** applications to investigate potential predictive models based on the data, and the results of the hypotheses.
+After collecting data, conducting EDA, and applying hypothesis tests; I will be using **machine learning** applications to investigate potential predictive models based on the data, and the results of the hypotheses.
 
 
 ---
