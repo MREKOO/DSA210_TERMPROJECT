@@ -1,0 +1,32 @@
+{
+    "games": [
+      {
+        "url": "https://www.chess.com/game/live/102342362555",
+        "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2024.02.22\"]\n[Round \"-\"]\n[White \"Gr3nadeShah\"]\n[Black \"MrEKO0\"]\n[Result \"1/2-1/2\"]\n[CurrentPosition \"4rrk1/1p4pp/p3pq2/3p4/5P2/P1N5/1PP1R1PP/5RK1 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"C02\"]\n[ECOUrl \"https://www.chess.com/openings/French-Defense-Advance-Nimzowitsch-System-4...Nc6\"]\n[UTCDate \"2024.02.22\"]\n[UTCTime \"12:06:22\"]\n[WhiteElo \"596\"]\n[BlackElo \"1050\"]\n[TimeControl \"180+2\"]\n[Termination \"Game drawn by agreement\"]\n[StartTime \"12:06:22\"]\n[EndDate \"2024.02.22\"]\n[EndTime \"12:11:07\"]\n[Link \"https://www.chess.com/game/live/102342362555\"]\n\n1. e4 {[%clk 0:03:02]} 1... e6 {[%clk 0:03:02]} 2. d4 {[%clk 0:03:02.6]} 2... d5 {[%clk 0:03:03.5]} 3. e5 {[%clk 0:03:02.4]} 3... c5 {[%clk 0:03:02.4]} 4. Nf3 {[%clk 0:03:00.7]} 4... Nc6 {[%clk 0:03:01.8]} 5. Nc3 {[%clk 0:02:58.5]} 5... cxd4 {[%clk 0:02:56.3]} 6. Nxd4 {[%clk 0:02:57.8]} 6... Nge7 {[%clk 0:02:49.3]} 7. Bb5 {[%clk 0:02:47.7]} 7... Bd7 {[%clk 0:02:48.3]} 8. Be3 {[%clk 0:02:43.7]} 8... a6 {[%clk 0:02:45]} 9. Bxc6 {[%clk 0:02:43.7]} 9... Nxc6 {[%clk 0:02:44.5]} 10. O-O {[%clk 0:02:43.2]} 10... Bb4 {[%clk 0:02:40.9]} 11. Qd2 {[%clk 0:02:42.7]} 11... O-O {[%clk 0:02:40]} 12. a3 {[%clk 0:02:43]} 12... Be7 {[%clk 0:02:27]} 13. Nf3 {[%clk 0:02:34.2]} 13... f6 {[%clk 0:02:25.3]} 14. Bd4 {[%clk 0:02:26.1]} 14... fxe5 {[%clk 0:02:10]} 15. Nxe5 {[%clk 0:02:23.9]} 15... Nxe5 {[%clk 0:01:56.8]} 16. Bxe5 {[%clk 0:02:25.8]} 16... Bf6 {[%clk 0:01:55.7]} 17. Bxf6 {[%clk 0:02:25.4]} 17... Qxf6 {[%clk 0:01:57.4]} 18. Rae1 {[%clk 0:02:14.9]} 18... Rae8 {[%clk 0:01:49.4]} 19. f4 {[%clk 0:02:15.1]} 19... Bb5 {[%clk 0:00:46.3]} 20. Qe2 {[%clk 0:02:17]} 20... Bxe2 {[%clk 0:00:41.9]} 21. Rxe2 {[%clk 0:02:17.4]} 1/2-1/2\n",
+        "time_control": "180+2",
+        "end_time": 1708603867,
+        "rated": false,
+        "tcn": "mC0SlBZJCKYIgv5QbsIBvB!0fH6ZcuWOHQ0Qeg9zdl8!iqz0Bv1TuBTKvKQKBK0TKT7Tae48nDZHlmHmem",
+        "uuid": "ca011df7-d17a-11ee-be9f-6cfe544c0428",
+        "initial_setup": "",
+        "fen": "4rrk1/1p4pp/p3pq2/3p4/5P2/P1N5/1PP1R1PP/5RK1 b - -",
+        "time_class": "blitz",
+        "rules": "chess",
+        "white": {
+          "rating": 596,
+          "result": "agreed",
+          "@id": "https://api.chess.com/pub/player/gr3nadeshah",
+          "username": "Gr3nadeShah",
+          "uuid": "a7cf0724-c995-11ed-b016-3b9afc5c87c7"
+        },
+        "black": {
+          "rating": 1050,
+          "result": "agreed",
+          "@id": "https://api.chess.com/pub/player/mreko0",
+          "username": "MrEKO0",
+          "uuid": "8008d55a-a521-11ed-adc8-f9403c3e5715"
+        },
+        "eco": "https://www.chess.com/openings/French-Defense-Advance-Nimzowitsch-System-4...Nc6"
+      }
+    ]
+  }

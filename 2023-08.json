@@ -1,0 +1,32 @@
+{
+    "games": [
+      {
+        "url": "https://www.chess.com/game/live/86716143265",
+        "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2023.08.25\"]\n[Round \"-\"]\n[White \"shashank4chess\"]\n[Black \"MrEKO0\"]\n[Result \"1-0\"]\n[CurrentPosition \"3Q4/1pp2p2/5pkp/1p6/6R1/5P2/6PP/6K1 b - -\"]\n[Timezone \"UTC\"]\n[ECO \"C01\"]\n[ECOUrl \"https://www.chess.com/openings/French-Defense-Exchange-Variation-3...exd5-4.Nc3-Nf6\"]\n[UTCDate \"2023.08.25\"]\n[UTCTime \"15:23:45\"]\n[WhiteElo \"975\"]\n[BlackElo \"962\"]\n[TimeControl \"60\"]\n[Termination \"shashank4chess won on time\"]\n[StartTime \"15:23:45\"]\n[EndDate \"2023.08.25\"]\n[EndTime \"15:25:56\"]\n[Link \"https://www.chess.com/game/live/86716143265\"]\n\n1. e4 {[%clk 0:01:00]} 1... e6 {[%clk 0:00:59.9]} 2. d4 {[%clk 0:00:59.9]} 2... d5 {[%clk 0:00:59.1]} 3. exd5 {[%clk 0:00:59.7]} 3... exd5 {[%clk 0:00:58.3]} 4. Nc3 {[%clk 0:00:59.5]} 4... Nf6 {[%clk 0:00:57.6]} 5. Qf3 {[%clk 0:00:58.7]} 5... Nc6 {[%clk 0:00:55.1]} 6. Bg5 {[%clk 0:00:58.1]} 6... Be7 {[%clk 0:00:53]} 7. Qd3 {[%clk 0:00:55.8]} 7... h6 {[%clk 0:00:50.7]} 8. Bf4 {[%clk 0:00:53.1]} 8... Bd6 {[%clk 0:00:47.6]} 9. Bxd6 {[%clk 0:00:48.8]} 9... Qxd6 {[%clk 0:00:47.3]} 10. Be2 {[%clk 0:00:47.8]} 10... Be6 {[%clk 0:00:45.7]} 11. Nf3 {[%clk 0:00:46.5]} 11... O-O-O {[%clk 0:00:44.3]} 12. Nb5 {[%clk 0:00:43.5]} 12... Qb4+ {[%clk 0:00:39.4]} 13. c3 {[%clk 0:00:39.1]} 13... Qxb2 {[%clk 0:00:35.2]} 14. O-O {[%clk 0:00:36.8]} 14... Ne4 {[%clk 0:00:32.6]} 15. Rab1 {[%clk 0:00:34]} 15... Qxa2 {[%clk 0:00:28.9]} 16. Ra1 {[%clk 0:00:31.3]} 16... Qc4 {[%clk 0:00:25.9]} 17. Qd1 {[%clk 0:00:26.1]} 17... Qxe2 {[%clk 0:00:15.9]} 18. Qxe2 {[%clk 0:00:24.5]} 18... a6 {[%clk 0:00:12.2]} 19. Ne5 {[%clk 0:00:22.3]} 19... Nxe5 {[%clk 0:00:10.6]} 20. dxe5 {[%clk 0:00:21.4]} 20... Rhe8 {[%clk 0:00:10.5]} 21. f3 {[%clk 0:00:19.8]} 21... Nf6 {[%clk 0:00:09.5]} 22. exf6 {[%clk 0:00:18.1]} 22... gxf6 {[%clk 0:00:08.1]} 23. Qd3 {[%clk 0:00:16.3]} 23... Bd7 {[%clk 0:00:06.5]} 24. c4 {[%clk 0:00:14.3]} 24... Bxb5 {[%clk 0:00:05.3]} 25. cxb5 {[%clk 0:00:12.3]} 25... axb5 {[%clk 0:00:04]} 26. Ra8+ {[%clk 0:00:10.6]} 26... Kd7 {[%clk 0:00:02.9]} 27. Rxd8+ {[%clk 0:00:09.1]} 27... Rxd8 {[%clk 0:00:02.2]} 28. Qxd5+ {[%clk 0:00:08.2]} 28... Ke7 {[%clk 0:00:01.7]} 29. Re1+ {[%clk 0:00:07.1]} 29... Kf8 {[%clk 0:00:00.9]} 30. Qxd8+ {[%clk 0:00:06.2]} 30... Kg7 {[%clk 0:00:00.3]} 31. Re4 {[%clk 0:00:05.6]} 31... Kg6 {[%clk 0:00:00.1]} 32. Rg4+ {[%clk 0:00:05]} 1-0\n",
+        "time_control": "60",
+        "end_time": 1692977156,
+        "rated": true,
+        "tcn": "mC0SlBZJCJSJbs!Tdv5QcM90vt3VMD0RDR7Rfm6Sgv86sHRzkszjegTCabjibaiAtdAmdmWOvKQKBK?8nvCTKT2TmtSZsAZHAHOHa46Z4787tJZ0fe09J792eC2UCE",
+        "uuid": "5df6bc2f-435b-11ee-b50d-6cfe544c0428",
+        "initial_setup": "",
+        "fen": "3Q4/1pp2p2/5pkp/1p6/6R1/5P2/6PP/6K1 b - -",
+        "time_class": "bullet",
+        "rules": "chess",
+        "white": {
+          "rating": 975,
+          "result": "win",
+          "@id": "https://api.chess.com/pub/player/shashank4chess",
+          "username": "shashank4chess",
+          "uuid": "94641596-38e2-11e9-921f-8b05b0488ab0"
+        },
+        "black": {
+          "rating": 962,
+          "result": "timeout",
+          "@id": "https://api.chess.com/pub/player/mreko0",
+          "username": "MrEKO0",
+          "uuid": "8008d55a-a521-11ed-adc8-f9403c3e5715"
+        },
+        "eco": "https://www.chess.com/openings/French-Defense-Exchange-Variation-3...exd5-4.Nc3-Nf6"
+      }
+    ]
+  }

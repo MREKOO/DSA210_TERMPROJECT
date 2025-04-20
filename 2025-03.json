@@ -1,0 +1,116 @@
+{
+    "games": [
+      {
+        "url": "https://www.chess.com/game/live/136293001165",
+        "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.14\"]\n[Round \"-\"]\n[White \"Zikinep\"]\n[Black \"MrEKO0\"]\n[Result \"0-1\"]\n[CurrentPosition \"r6r/p2k1p1p/3b1p2/2p5/4b3/N3B3/PP5p/7K w - - 0 27\"]\n[Timezone \"UTC\"]\n[ECO \"B40\"]\n[ECOUrl \"https://www.chess.com/openings/Sicilian-Defense-French-Variation-3.g3-Nc6-4.Bg2-d5\"]\n[UTCDate \"2025.03.14\"]\n[UTCTime \"19:10:27\"]\n[WhiteElo \"192\"]\n[BlackElo \"1242\"]\n[TimeControl \"600\"]\n[Termination \"MrEKO0 won by checkmate\"]\n[StartTime \"19:10:27\"]\n[EndDate \"2025.03.14\"]\n[EndTime \"19:23:21\"]\n[Link \"https://www.chess.com/game/live/136293001165\"]\n\n1. e4 {[%clk 0:10:00]} 1... e6 {[%clk 0:10:00]} 2. g3 {[%clk 0:09:58.8]} 2... d5 {[%clk 0:09:59.2]} 3. Bg2 {[%clk 0:09:57.9]} 3... c5 {[%clk 0:09:57.6]} 4. Nf3 {[%clk 0:09:56.9]} 4... Nc6 {[%clk 0:09:56.6]} 5. d4 {[%clk 0:09:55.4]} 5... dxe4 {[%clk 0:09:55.2]} 6. Nfd2 {[%clk 0:09:38.6]} 6... Nf6 {[%clk 0:09:52.7]} 7. O-O {[%clk 0:09:30.1]} 7... cxd4 {[%clk 0:09:48.5]} 8. f3 {[%clk 0:09:25]} 8... e3 {[%clk 0:09:46.3]} 9. Ne4 {[%clk 0:09:19.5]} 9... e5 {[%clk 0:09:12.6]} 10. Nxf6+ {[%clk 0:08:41.2]} 10... Qxf6 {[%clk 0:09:12.5]} 11. f4 {[%clk 0:08:05]} 11... Bf5 {[%clk 0:08:08.6]} 12. Qh5 {[%clk 0:07:38]} 12... Bxc2 {[%clk 0:07:34.9]} 13. Na3 {[%clk 0:07:03.1]} 13... Bd3 {[%clk 0:07:20.1]} 14. Re1 {[%clk 0:06:39.3]} 14... exf4 {[%clk 0:06:56.7]} 15. Qf3 {[%clk 0:05:51.9]} 15... fxg3 {[%clk 0:06:17.5]} 16. Qxf6 {[%clk 0:05:40.9]} 16... gxh2+ {[%clk 0:06:02.1]} 17. Kh1 {[%clk 0:05:10.2]} 17... gxf6 {[%clk 0:06:02]} 18. Rd1 {[%clk 0:04:52.2]} 18... Ba6 {[%clk 0:05:48.4]} 19. Bxc6+ {[%clk 0:04:41.6]} 19... bxc6 {[%clk 0:05:46.5]} 20. Rxd4 {[%clk 0:04:35.2]} 20... Bc5 {[%clk 0:05:28]} 21. Re4+ {[%clk 0:04:18.3]} 21... Kd7 {[%clk 0:05:20.5]} 22. Rh4 {[%clk 0:04:05.6]} 22... Bd6 {[%clk 0:05:17.7]} 23. Bxe3 {[%clk 0:03:53.5]} 23... Bb7 {[%clk 0:05:03.6]} 24. Rd1 {[%clk 0:03:49.1]} 24... c5+ {[%clk 0:05:02.2]} 25. Rd5 {[%clk 0:02:41.1]} 25... Bxd5+ {[%clk 0:04:58]} 26. Re4 {[%clk 0:02:36.8]} 26... Bxe4# {[%clk 0:04:56.5]} 0-1\n",
+        "time_control": "600",
+        "end_time": 1741980201,
+        "rated": true,
+        "tcn": "mC0SowZJfoYIgv5QlBJCvl!TegIBnvCulCSKCT7TvD6LdNLkbqktfeKDNvDwvTwpgh2TedtOoQXQdB9IBC8ZCFIRcuOXadQIdJXJFCJC",
+        "uuid": "fd120227-0107-11f0-a9ba-6cfe544c0428",
+        "initial_setup": "",
+        "fen": "r6r/p2k1p1p/3b1p2/2p5/4b3/N3B3/PP5p/7K w - - 0 27",
+        "time_class": "rapid",
+        "rules": "chess",
+        "white": {
+          "rating": 192,
+          "result": "checkmated",
+          "@id": "https://api.chess.com/pub/player/zikinep",
+          "username": "Zikinep",
+          "uuid": "e864bbac-b3e1-11ef-8426-8588ed3bce17"
+        },
+        "black": {
+          "rating": 1242,
+          "result": "win",
+          "@id": "https://api.chess.com/pub/player/mreko0",
+          "username": "MrEKO0",
+          "uuid": "8008d55a-a521-11ed-adc8-f9403c3e5715"
+        },
+        "eco": "https://www.chess.com/openings/Sicilian-Defense-French-Variation-3.g3-Nc6-4.Bg2-d5"
+      },
+      {
+        "url": "https://www.chess.com/game/live/136293607635",
+        "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.14\"]\n[Round \"-\"]\n[White \"MrEKO0\"]\n[Black \"Zikinep\"]\n[Result \"1-0\"]\n[CurrentPosition \"rnbqkbnr/p3pppp/8/1BpP4/8/2N5/PPPP1PPP/R1BQK1NR b KQkq - 0 4\"]\n[Timezone \"UTC\"]\n[ECO \"B01\"]\n[ECOUrl \"https://www.chess.com/openings/Scandinavian-Defense-2.exd5\"]\n[UTCDate \"2025.03.14\"]\n[UTCTime \"19:23:33\"]\n[WhiteElo \"1242\"]\n[BlackElo \"192\"]\n[TimeControl \"600\"]\n[Termination \"MrEKO0 won by resignation\"]\n[StartTime \"19:23:33\"]\n[EndDate \"2025.03.14\"]\n[EndTime \"19:24:20\"]\n[Link \"https://www.chess.com/game/live/136293607635\"]\n\n1. e4 {[%clk 0:10:00]} 1... d5 {[%clk 0:10:00]} 2. exd5 {[%clk 0:09:58.8]} 2... c5 {[%clk 0:09:57.6]} 3. Nc3 {[%clk 0:09:55.5]} 3... b5 {[%clk 0:09:55.8]} 4. Bxb5+ {[%clk 0:09:54]} 1-0\n",
+        "time_control": "600",
+        "end_time": 1741980260,
+        "rated": true,
+        "tcn": "mCZJCJYIbsXHfH",
+        "uuid": "d1e89808-0109-11f0-a9ba-6cfe544c0428",
+        "initial_setup": "",
+        "fen": "rnbqkbnr/p3pppp/8/1BpP4/8/2N5/PPPP1PPP/R1BQK1NR b KQkq - 0 4",
+        "time_class": "rapid",
+        "rules": "chess",
+        "white": {
+          "rating": 1242,
+          "result": "win",
+          "@id": "https://api.chess.com/pub/player/mreko0",
+          "username": "MrEKO0",
+          "uuid": "8008d55a-a521-11ed-adc8-f9403c3e5715"
+        },
+        "black": {
+          "rating": 192,
+          "result": "resigned",
+          "@id": "https://api.chess.com/pub/player/zikinep",
+          "username": "Zikinep",
+          "uuid": "e864bbac-b3e1-11ef-8426-8588ed3bce17"
+        },
+        "eco": "https://www.chess.com/openings/Scandinavian-Defense-2.exd5"
+      },
+      {
+        "url": "https://www.chess.com/game/live/136294187247",
+        "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.14\"]\n[Round \"-\"]\n[White \"Zikinep\"]\n[Black \"MrEKO0\"]\n[Result \"0-1\"]\n[CurrentPosition \"8/5pk1/p5pp/8/P4P2/6P1/r6P/q2K4 w - - 6 41\"]\n[Timezone \"UTC\"]\n[ECO \"C00\"]\n[ECOUrl \"https://www.chess.com/openings/French-Defense-Knight-Variation-2...d5-3.exd5-exd5\"]\n[UTCDate \"2025.03.14\"]\n[UTCTime \"19:24:26\"]\n[WhiteElo \"192\"]\n[BlackElo \"1242\"]\n[TimeControl \"600\"]\n[Termination \"MrEKO0 won by checkmate\"]\n[StartTime \"19:24:26\"]\n[EndDate \"2025.03.14\"]\n[EndTime \"19:43:44\"]\n[Link \"https://www.chess.com/game/live/136294187247\"]\n\n1. e4 {[%clk 0:10:00]} 1... e6 {[%clk 0:10:00]} 2. Nf3 {[%clk 0:09:58.2]} 2... d5 {[%clk 0:09:59]} 3. exd5 {[%clk 0:09:52.4]} 3... exd5 {[%clk 0:09:58]} 4. g3 {[%clk 0:09:50.5]} 4... Nf6 {[%clk 0:09:50]} 5. Bg2 {[%clk 0:09:46.9]} 5... c5 {[%clk 0:09:33.6]} 6. O-O {[%clk 0:09:20.3]} 6... Be7 {[%clk 0:09:31.1]} 7. Re1 {[%clk 0:09:15.9]} 7... O-O {[%clk 0:09:29.9]} 8. Nc3 {[%clk 0:08:39.8]} 8... d4 {[%clk 0:09:23.1]} 9. Nb5 {[%clk 0:08:24.4]} 9... a6 {[%clk 0:09:11.5]} 10. Na3 {[%clk 0:08:12]} 10... Nc6 {[%clk 0:09:00.5]} 11. d3 {[%clk 0:08:09.7]} 11... Be6 {[%clk 0:08:50.1]} 12. Bg5 {[%clk 0:07:57.8]} 12... h6 {[%clk 0:08:26.9]} 13. Bxf6 {[%clk 0:07:45.7]} 13... Bxf6 {[%clk 0:08:26.8]} 14. Nc4 {[%clk 0:07:25.5]} 14... b5 {[%clk 0:08:11.8]} 15. Na3 {[%clk 0:06:56.1]} 15... b4 {[%clk 0:08:06.1]} 16. Nc4 {[%clk 0:06:49.7]} 16... Bxc4 {[%clk 0:07:52.9]} 17. dxc4 {[%clk 0:06:48.1]} 17... Qd7 {[%clk 0:06:59.6]} 18. c3 {[%clk 0:06:10.1]} 18... bxc3 {[%clk 0:05:55.9]} 19. bxc3 {[%clk 0:06:02.6]} 19... Rad8 {[%clk 0:05:44.1]} 20. Nh4 {[%clk 0:05:45.5]} 20... Na5 {[%clk 0:05:06.1]} 21. Rb1 {[%clk 0:05:14.2]} 21... dxc3 {[%clk 0:04:47.7]} 22. Qxd7 {[%clk 0:04:19.5]} 22... Rxd7 {[%clk 0:04:46.5]} 23. Rbc1 {[%clk 0:04:12.1]} 23... Nxc4 {[%clk 0:04:27.9]} 24. Red1 {[%clk 0:03:54.4]} 24... Rxd1+ {[%clk 0:04:18.5]} 25. Rxd1 {[%clk 0:03:49.2]} 25... c2 {[%clk 0:04:15.2]} 26. Rc1 {[%clk 0:03:08.1]} 26... Na3 {[%clk 0:03:41.4]} 27. Be4 {[%clk 0:02:41]} 27... Re8 {[%clk 0:02:44.7]} 28. Bxc2 {[%clk 0:02:32.5]} 28... Nxc2 {[%clk 0:02:42.9]} 29. Rxc2 {[%clk 0:02:30.9]} 29... Bd4 {[%clk 0:02:14.8]} 30. Nf5 {[%clk 0:02:08.8]} 30... Re1+ {[%clk 0:01:32.9]} 31. Kg2 {[%clk 0:01:38]} 31... g6 {[%clk 0:01:20.9]} 32. Nxd4 {[%clk 0:01:06.9]} 32... cxd4 {[%clk 0:01:20.8]} 33. a4 {[%clk 0:01:02.2]} 33... Ra1 {[%clk 0:01:05.3]} 34. Rc8+ {[%clk 0:00:50.9]} 34... Kg7 {[%clk 0:00:59.6]} 35. Rc4 {[%clk 0:00:47.8]} 35... d3 {[%clk 0:00:57.5]} 36. Rc2 {[%clk 0:00:43.6]} 36... dxc2 {[%clk 0:00:56]} 37. f4 {[%clk 0:00:38.7]} 37... c1=Q {[%clk 0:00:52.3]} 38. Kf2 {[%clk 0:00:34.1]} 38... Qc3 {[%clk 0:00:49.3]} 39. Ke2 {[%clk 0:00:32.2]} 39... Ra2+ {[%clk 0:00:43.4]} 40. Kd1 {[%clk 0:00:30.8]} 40... Qa1# {[%clk 0:00:43]} 0-1\n",
+        "time_control": "600",
+        "end_time": 1741981424,
+        "rated": true,
+        "tcn": "mC0SgvZJCJSJow!TfoYIeg90fe8!bsJBsHWOHq5Qlt6ScM3VMT0TqAXHAqHzqASAtA7Zkszsjs47vFQGabBsdZ7ZbcGAedZdcdskdcAqoC98CkqkckTBFL8ego2ULBIBiyeak6!26ABtAktknDk~oncsnmaimdsa",
+        "uuid": "f138cc17-0109-11f0-a9ba-6cfe544c0428",
+        "initial_setup": "",
+        "fen": "8/5pk1/p5pp/8/P4P2/6P1/r6P/q2K4 w - - 6 41",
+        "time_class": "rapid",
+        "rules": "chess",
+        "white": {
+          "rating": 192,
+          "result": "checkmated",
+          "@id": "https://api.chess.com/pub/player/zikinep",
+          "username": "Zikinep",
+          "uuid": "e864bbac-b3e1-11ef-8426-8588ed3bce17"
+        },
+        "black": {
+          "rating": 1242,
+          "result": "win",
+          "@id": "https://api.chess.com/pub/player/mreko0",
+          "username": "MrEKO0",
+          "uuid": "8008d55a-a521-11ed-adc8-f9403c3e5715"
+        },
+        "eco": "https://www.chess.com/openings/French-Defense-Knight-Variation-2...d5-3.exd5-exd5"
+      },
+      {
+        "url": "https://www.chess.com/game/live/136294809031",
+        "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2025.03.14\"]\n[Round \"-\"]\n[White \"Zikinep\"]\n[Black \"MrEKO0\"]\n[Result \"0-1\"]\n[CurrentPosition \"rnb1kb1r/pp3ppp/2p2n2/3pq3/8/3B2P1/PPPP1P1P/RNBQK2R w KQkq - 0 8\"]\n[Timezone \"UTC\"]\n[ECO \"C00\"]\n[ECOUrl \"https://www.chess.com/openings/French-Defense-Knight-Variation-2...d5-3.exd5-exd5\"]\n[UTCDate \"2025.03.14\"]\n[UTCTime \"19:44:03\"]\n[WhiteElo \"192\"]\n[BlackElo \"1242\"]\n[TimeControl \"600\"]\n[Termination \"MrEKO0 won by resignation\"]\n[StartTime \"19:44:03\"]\n[EndDate \"2025.03.14\"]\n[EndTime \"19:45:53\"]\n[Link \"https://www.chess.com/game/live/136294809031\"]\n\n1. e4 {[%clk 0:10:00]} 1... e6 {[%clk 0:10:00]} 2. Nf3 {[%clk 0:09:56.4]} 2... d5 {[%clk 0:09:58.7]} 3. exd5 {[%clk 0:09:54.3]} 3... exd5 {[%clk 0:09:58.6]} 4. g3 {[%clk 0:09:51.8]} 4... Nf6 {[%clk 0:09:46]} 5. Ne5 {[%clk 0:09:44.9]} 5... Qe7 {[%clk 0:09:38]} 6. Bb5+ {[%clk 0:09:37.3]} 6... c6 {[%clk 0:09:31.5]} 7. Bd3 {[%clk 0:09:28.3]} 7... Qxe5+ {[%clk 0:09:28.3]} 0-1\n",
+        "time_control": "600",
+        "end_time": 1741981553,
+        "rated": true,
+        "tcn": "mC0SgvZJCJSJow!TvK70fHYQHt0K",
+        "uuid": "aeb5a37d-010c-11f0-a9ba-6cfe544c0428",
+        "initial_setup": "",
+        "fen": "rnb1kb1r/pp3ppp/2p2n2/3pq3/8/3B2P1/PPPP1P1P/RNBQK2R w KQkq - 0 8",
+        "time_class": "rapid",
+        "rules": "chess",
+        "white": {
+          "rating": 192,
+          "result": "resigned",
+          "@id": "https://api.chess.com/pub/player/zikinep",
+          "username": "Zikinep",
+          "uuid": "e864bbac-b3e1-11ef-8426-8588ed3bce17"
+        },
+        "black": {
+          "rating": 1242,
+          "result": "win",
+          "@id": "https://api.chess.com/pub/player/mreko0",
+          "username": "MrEKO0",
+          "uuid": "8008d55a-a521-11ed-adc8-f9403c3e5715"
+        },
+        "eco": "https://www.chess.com/openings/French-Defense-Knight-Variation-2...d5-3.exd5-exd5"
+      }
+    ]
+  }

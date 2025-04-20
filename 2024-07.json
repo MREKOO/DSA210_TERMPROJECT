@@ -1,0 +1,33 @@
+{
+    "games": [
+      {
+        "url": "https://www.chess.com/game/daily/646825483",
+        "pgn": "[Event \"Let's Play!\"]\n[Site \"Chess.com\"]\n[Date \"2024.04.17\"]\n[Round \"-\"]\n[White \"MrEKO0\"]\n[Black \"Onur3477\"]\n[Result \"1-0\"]\n[CurrentPosition \"4r3/5pp1/pr1kb2p/2p2N2/8/2P2P2/P3R1PP/2R3K1 b - - 1 29\"]\n[Timezone \"UTC\"]\n[ECO \"C21\"]\n[ECOUrl \"https://www.chess.com/openings/Danish-Gambit-Declined-Sorensen-Defense\"]\n[UTCDate \"2024.04.17\"]\n[UTCTime \"04:49:58\"]\n[WhiteElo \"1302\"]\n[BlackElo \"873\"]\n[TimeControl \"1/259200\"]\n[Termination \"MrEKO0 won on time\"]\n[StartTime \"04:49:58\"]\n[EndDate \"2024.07.08\"]\n[EndTime \"17:38:30\"]\n[Link \"https://www.chess.com/game/daily/646825483\"]\n\n1. e4 {[%clk 0:00:05.2]} 1... e5 {[%clk 0:00:01.2]} 2. d4 {[%clk 0:57:50.7]} 2... exd4 {[%clk 0:00:07.8]} 3. c3 {[%clk 0:20:35]} 3... d5 {[%clk 0:08:34.3]} 4. Qxd4 {[%clk 0:00:07]} 4... c6 {[%clk 0:00:02.4]} 5. exd5 {[%clk 0:00:05]} 5... cxd5 {[%clk 0:00:07.1]} 6. Bb5+ {[%clk 0:00:03]} 6... Nc6 {[%clk 0:00:02.3]} 7. Qe5+ {[%clk 0:06:36.5]} 7... Qe7 {[%clk 0:02:05.3]} 8. Nf3 {[%clk 0:03:39.7]} 8... Bd7 {[%clk 0:00:31.4]} 9. Qxe7+ {[%clk 0:03:39.8]} 9... Bxe7 {[%clk 0:05:00.2]} 10. O-O {[%clk 0:01:48.6]} 10... Nf6 {[%clk 0:01:15.3]} 11. Re1 {[%clk 0:02:45.8]} 11... a6 {[%clk 0:00:36]} 12. Bxc6 {[%clk 0:02:07.6]} 12... bxc6 {[%clk 1:16:44.3]} 13. Bg5 {[%clk 0:05:00.6]} 13... Be6 {[%clk 3:24:51]} 14. Nd4 {[%clk 1:09:37.6]} 14... Kd7 {[%clk 0:27:59.8]} 15. Nd2 {[%clk 0:22:56.9]} 15... Rab8 {[%clk 0:04:07.6]} 16. b4 {[%clk 0:13:53.3]} 16... h6 {[%clk 1:40:27.5]} 17. Bf4 {[%clk 0:26:48.8]} 17... Bd6 {[%clk 0:43:24.9]} 18. Bxd6 {[%clk 0:46:45.3]} 18... Kxd6 {[%clk 0:33:11]} 19. N2b3 {[%clk 0:05:15.8]} 19... Ne4 {[%clk 2:08:19.1]} 20. Rac1 {[%clk 0:49:05.7]} 20... Rhe8 {[%clk 0:06:12.8]} 21. f3 {[%clk 1:31:56.4]} 21... Nf6 {[%clk 1:22:30.6]} 22. Nc5 {[%clk 0:40:57.2]} 22... Rb6 {[%clk 0:33:07]} 23. Re2 {[%clk 0:12:24]} 23... Nd7 {[%clk 0:15:16.6]} 24. Ndb3 {[%clk 0:18:19.4]} 24... d4 {[%clk 0:08:47.4]} 25. Nxd4 {[%clk 0:52:30.4]} 25... Nxc5 {[%clk 0:17:22.4]} 26. bxc5+ {[%clk 0:02:10.3]} 26... Kxc5 {[%clk 0:21:35]} 27. Nb3+ {[%clk 1:39:49.8]} 27... Kd6 {[%clk 0:20:51.3]} 28. Nd4 {[%clk 0:05:30.8]} 28... c5 {[%clk 0:00:28.1]} 29. Nf5+ {[%clk 0:36:06.7]} 1-0\n",
+        "time_control": "1/259200",
+        "end_time": 1720460310,
+        "rated": true,
+        "tcn": "mC0KlBKBksZJdBYQCJQJfH5QBK70gv6ZK090eh!TfeWOHQXQcMZSvB8Zbl45jz3VMD0RDRZRlrTCac?8nvCTrI5PemTZBrJBrBZIzIRIBrIRrBQIBL",
+        "uuid": "f14a9940-fc75-11ee-aa82-4ad5f701000b",
+        "initial_setup": "",
+        "fen": "4r3/5pp1/pr1kb2p/2p2N2/8/2P2P2/P3R1PP/2R3K1 b - - 1 29",
+        "start_time": 1713329398,
+        "time_class": "daily",
+        "rules": "chess",
+        "white": {
+          "rating": 1302,
+          "result": "win",
+          "@id": "https://api.chess.com/pub/player/mreko0",
+          "username": "MrEKO0",
+          "uuid": "8008d55a-a521-11ed-adc8-f9403c3e5715"
+        },
+        "black": {
+          "rating": 873,
+          "result": "timeout",
+          "@id": "https://api.chess.com/pub/player/onur3477",
+          "username": "Onur3477",
+          "uuid": "8e9c00be-92a2-11ee-b459-d5c32eb73b0f"
+        },
+        "eco": "https://www.chess.com/openings/Danish-Gambit-Declined-Sorensen-Defense"
+      }
+    ]
+  }
