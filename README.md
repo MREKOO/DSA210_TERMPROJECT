@@ -114,6 +114,9 @@ The analyzed data will be used to support or deny hypotheses like:
 - This **signature pattern**, if confirmed, can serve as a predictive indicator of my game outcome during play, giving me a powerful tool to assess my **winning probability** based on how closesly my current time usage matches my established **winning pattern**.
 - Does this **pattern** change with different **time controls** or not?
 
+![image](https://github.com/user-attachments/assets/d4a27590-0471-4650-ac62-65b0b564ece0)
+
+
 ### 2️⃣ Defensive vs. Aggresive Gameplay
 
 ***Null Hypothesis (H₀):*** There is **no significant difference** in the **average centipawn loss** and **win rate** between **defensive and slow openings** and **aggresive and sacrificial openings**.
