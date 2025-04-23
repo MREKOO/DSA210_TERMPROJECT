@@ -29,23 +29,6 @@ After retrieving the raw game data, using **lichess.org's (a widely used non-pro
 
 ---
 
-## Exploratory Data Analysis (EDA) 🧩
-
-Before dividing into statistical testing, I will conduct **exploratory data analysis (EDA)** to better understand my chess data. This process will involve:
-
-- **Summarizing the dataset,** understanding **distributions**, **correlations**, **relations** between the paramaters of the data.
-- **Handling missing values** and **data cleaning** to ensure the reliability of my analysis.
-- **Identifying outliers and anomalies** that may indicate unusual performance trends, and therefore damage the hypothesis testing process by potentially driving the analyze into wrong conclusions.
-
----
-
-## Data Visualization 🎨
-
-To understand the behaviour of my data, uncover trends and correlations; I will use **data visualization techniques**. The visualization methods will include; **histograms**,  **boxplots**, **scatter plots**, **heatmaps**, **time-series graphs**, and more. 
-
-With the visualization, I will be able to explore the data, determine how to proceed and decide what to do next. **Data visualization** will also be the key process to present and explain my analysis in an organized fashion.
-
----
 
 ## Description of the Tools 🪛
 
@@ -98,6 +81,24 @@ The enriched data with the analysis of **Stockfish** will include:
 - **Blunder Count:** The number of significant game-changing mistakes made by a player during the game.
 - **Correct Moves:** The number of moves played by the player that are considered the best or near-optimal (generally moves that does not worsen the position) by the chess engine.
 - **Average Centipawn Loss:** A measure of the average loss in position strength, in centipawns (a *pawn* in a chess game is considered to have a value of *100 centipawns*, the position at a certain time of a chess game is evaluated with the *centipawn loss*, e.g. *white +200* means white has *200 centipawns of adventage*, in other words, white is *200 centipawns* better at this position), for each move compared to the best move.
+
+---
+
+## Data Visualization 🎨
+
+To understand the behaviour of my data, uncover trends and correlations; I will use **data visualization techniques**. The visualization methods will include; **histograms**,  **boxplots**, **scatter plots**, **heatmaps**, **time-series graphs**, and more. 
+
+With the visualization, I will be able to explore the data, determine how to proceed and decide what to do next. **Data visualization** will also be the key process to present and explain my analysis in an organized fashion.
+
+---
+
+## Exploratory Data Analysis (EDA) 🧩
+
+Before diving into statistical testing, I will conduct **exploratory data analysis (EDA)** to better understand my chess data. This process will involve:
+
+- **Summarizing the dataset,** understanding **distributions**, **correlations**, **relations** between the paramaters of the data.
+- **Handling missing values** and **data cleaning** to ensure the reliability of my analysis.
+- **Identifying outliers and anomalies** that may indicate unusual performance trends, and therefore damage the hypothesis testing process by potentially driving the analyze into wrong conclusions.
 
 ---
 
