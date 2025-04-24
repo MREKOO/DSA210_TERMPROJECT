@@ -100,13 +100,21 @@ Before diving into statistical testing, I will conduct **exploratory data analys
 - **Handling missing values** and **data cleaning** to ensure the reliability of my analysis.
 - **Identifying outliers and anomalies** that may indicate unusual performance trends, and therefore damage the hypothesis testing process by potentially driving the analyze into wrong conclusions.
 
+## Findings from the EDA 🧮
+
+I observed that a uniform-like ditribution occurs in the following plot, regardless of the outcome of the game. Below is the plot of the data points in winning games. Please check the `main.ipynb` for other categories' plots. The x-axis represent the move numbers, while the y-axis represents the time spent on completing that particular move.
+
+![image](https://github.com/user-attachments/assets/d40be7ee-bb95-4d6e-915d-ef060d635047)
+
+Both of the graphs follow a right skewed uniform-like distribution, indicating there exists a pattern of time spent per move in particular moves. Note that histograms may be hard to read because of the high frequencies in the first few moves, that is why I use over-plotting transparent scatter plots to better understand the nature of the data in this case.
+
 ---
 
-## Hypotheses 💡
+## Hypothesis 💡
 
 The analyzed data will be used to support or deny hypotheses like:
 
-### 1️⃣ Signature Time Pattern of the Winning Games
+### Signature Time Pattern of the Winning Games
 
 ***Null Hypothesis (H₀):*** There is **no distinct, unique pattern** in the time I spend on each move in the games I won when the moves of the whole game are divided into equal phases. The time distribution pattern in winning games **does not differ** significantly from the time distribution pattern observed in games I lost. Any observed difference between winning and losing games is **due to random variation** rather than consistent patterns.
 
@@ -115,22 +123,34 @@ The analyzed data will be used to support or deny hypotheses like:
 - This **signature pattern**, if confirmed, can serve as a predictive indicator of my game outcome during play, giving me a powerful tool to assess my **winning probability** based on how closesly my current time usage matches my established **winning pattern**.
 - Does this **pattern** change with different **time controls** or not?
 
-![image](https://github.com/user-attachments/assets/d4a27590-0471-4650-ac62-65b0b564ece0)
+---
 
+## Hypothesis Testing Results 🧪
 
-### 2️⃣ Defensive vs. Aggresive Gameplay
+After preparing the data, I conducted hypothesis tests for each **time class** category. For each category, each move is tested separately using two sample t-tests to determine if the difference between the Win and Loss games are significant. The significance level was accepted as constant *0.05*.
 
-***Null Hypothesis (H₀):*** There is **no significant difference** in the **average centipawn loss** and **win rate** between **defensive and slow openings** and **aggresive and sacrificial openings**.
+### All Games
 
-***Alternative Hypothesis (H₁):*** **Defensive and slow openings** often lead to games with **lower average centipawn loss** and **higher win** conversion, while **aggresive and sacrificial openings** result in **higher centipawn loss**. Despite starting with the advantage as White in gambit openings, my overall **win rate is higher** and **average centipawn loss is lower** when playing defensive with Black pieces.
+Firstly, I conducted hypothesis tests for all of the Blitz, Bullet, and Rapid games together.
+Out of 73 successful t-tests (meaning 74th move did not contain enough data), only 15 p-values observed were under the significance level. This implies that there is no strong pattern difference in Win and Loss games category-wise. We **fail to reject** the **Null Hypothesis** based on this result.
 
-### 3️⃣ Different Time Control, Different Ratio
+### Blitz Games
 
-***Null Hypothesis (H₀):*** The **average time per move does not significantly differ** across different time controls, even after normalized to an equivalent rate (e.g. **20 seconds per move** in a **10-minute game** vs. **2 seconds per move** in a **1-minute game**). Any observed difference in the ratios are caused by **random variation and some external factors**, and there is **no psychological tendency** to play faster in shorter time controls.
+The data of **Blitz Games** yielded a result with more significant p-values. Out of 72 successful t-tests, 23 p-values were found to be falling under the significance level. Although at the first glance, this result appears to be leading us to **fail to reject** the **Null Hypothesis**, which is the case in actuality; it is better that we observe a plot of the p-value distribution among the moves. This is because 23 p-values, even though not enough to imply a proof to reject the Null Hypothesis, are still a considerable amount.
 
-***Alternative Hypothesis (H₁):*** The average time I spend per move **varies** across different time controls, even when we **normalize** to an equivalent rate. For example, **20 seconds per move** in a **10-minute game**, is equivalent to **2 seconds per move** in a **1-minute game** by ratio.
+![image](https://github.com/user-attachments/assets/59be7742-1a6a-41e3-aa12-f1b72fcc3ea1)
 
-- This difference might be the result of a **psychological tendency to speed up my move decisions in faster time controls**, even when the rate per move (after normalized) should theoratically remain same regardless of the time control.
+Once the p-value plot is observed, it would appear that there are spesific intervals that for which I could assess the rejection of the Null Hypothesis just on those move intervals. We can see from the graph that roughly between moves 1 and 25 there is a high concentration of significant p-values. This is also the case with the interval of 50th-60th moves.
+
+### Bullet Games
+
+The **Bullet Games** data yielded a similar result with the Blitz Games data. Out of 64 successful t-tests, 23 p-values were found to be falling under the significane level. Again, we **fail to reject** the **Null Hypothesis**. But very similar to our previous analysis, the **Bullet Games** also yields a plot of spesific p-value concentrated intervals, that suggests the Null Hypothesis may be rejectable for that intervals.
+
+### Rapid Games
+
+The data of **Rapid Games** however, yielded a surprising result. I observed that out of 65 successful t-tests, only 2 p-values were significant. This observation immediately led me to directly **fail to reject** the **Null Hypothesis**, without even checking spesific intervals, unlike the previous **time class** categories' tests.
+
+*Please head to the `main.ipynb` file for detailed results.*
 
 ---
 
