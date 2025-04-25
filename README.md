@@ -102,7 +102,7 @@ Before diving into statistical testing, I will conduct **exploratory data analys
 
 ## Findings from the EDA 🧮
 
-There exists differences in compared graphs of Win and Loss games regarding the average time spent each game. As an initial thought, this may suggest that I could observe results in favor of the Alternative Hypothesis, of course further checks must be done.
+There exists differences in compared graphs of Win and Loss games regarding the average time spent each game. As an initial thought, this may suggest that I could observe results in favor of a signature difference pattern, of course further checks must be done.
 
 ![image](https://github.com/user-attachments/assets/c1b13e67-7c5e-4ccb-827d-91d989aec179)
 
@@ -116,7 +116,7 @@ Both of the graphs follow a right skewed uniform-like distribution, indicating t
 
 ---
 
-## Hypothesis 💡
+## Hypotheses 💡
 
 The analyzed data will be used to support or deny hypotheses like:
 
