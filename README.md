@@ -156,7 +156,7 @@ The **Bullet Games** data yielded a similar result with the Blitz Games data. Ou
 
 The data of **Rapid Games** however, yielded a surprising result. I observed that out of 65 successful t-tests, only 2 p-values were significant. This observation immediately led me to directly **fail to reject** the **Null Hypothesis**, without even checking spesific intervals, unlike the previous **time class** categories' tests.
 
-*Please head to the `main.ipynb` file for detailed results.*
+*Please head to the `main.ipynb` file for detailed results and insights.*
 
 ---
 
