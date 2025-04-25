@@ -108,6 +108,8 @@ I observed that a uniform-like ditribution occurs in the following plot, regardl
 
 Both of the graphs follow a right skewed uniform-like distribution, indicating there exists a pattern of time spent per move in particular moves. Note that histograms may be hard to read because of the high frequencies in the first few moves, that is why I use over-plotting transparent scatter plots to better understand the nature of the data in this case.
 
+*Please head to the `main.ipynb` file for detailed EDA and findings.*
+
 ---
 
 ## Hypothesis 💡
