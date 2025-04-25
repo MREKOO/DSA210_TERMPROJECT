@@ -102,6 +102,10 @@ Before diving into statistical testing, I will conduct **exploratory data analys
 
 ## Findings from the EDA 🧮
 
+There exists differences in compared graphs of Win and Loss games regarding the average time spent each game. As an initial thought, this may suggest that I could observe results in favor of the Alternative Hypothesis, of course further checks must be done.
+
+![image](https://github.com/user-attachments/assets/c1b13e67-7c5e-4ccb-827d-91d989aec179)
+
 I observed that a uniform-like ditribution occurs in the following plot, regardless of the outcome of the game. Below is the plot of the data points in winning games. Please check the `main.ipynb` for other categories' plots. The x-axis represent the move numbers, while the y-axis represents the time spent on completing that particular move.
 
 ![image](https://github.com/user-attachments/assets/d40be7ee-bb95-4d6e-915d-ef060d635047)
