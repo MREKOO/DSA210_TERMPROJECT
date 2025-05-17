@@ -162,7 +162,7 @@ The data of **Rapid Games** however, yielded a surprising result. I observed tha
 
 ## Machine Learning 🤖
 
-I applied Machine Learning methods to my data, after hypothesis testing is done. I aimed to determine the game outcome, either **Win** or **Loss** from the time spent per move data pattern. I conducted **Feature Engineering** on the current data, increasing the parameters for our models to better understand/handle the pattern difference. I used two different models, **Logistic Regression** and **Random Forest**, which are often used in binary classification. Both models use %80 of my data to train and the remaining %20 of the data is used to test these models.
+I applied Machine Learning methods to my data, after hypothesis testing is done. I spesifically used only **Bullet** games data for the ML applications, since it yielded the most significant p-values, meaning the pattern difference is more clear compared to other time classes. I aimed to determine the game outcome, either **Win** or **Loss** from the time spent per move data pattern. I conducted **Feature Engineering** on the current data, increasing the parameters for our models to better understand/handle the pattern difference. I used two different models, **Logistic Regression** and **Random Forest**, which are often used in binary classification. Both models use %80 of my data to train and the remaining %20 of the data is used to test these models.
 
 *For details please head to the `main.ipynb` file.*
 
@@ -209,27 +209,31 @@ The **Random Forest** model yields the following **Classification Report** and *
 | **Actual 1** | 17          | 95          |
 
 Looking at the tables, we make the following interpretations:
-- The Random Forest model certainly performs better than the Logistic Regression model.
+- The **Random Forest** model certainly performs better than the **Logistic Regression** model.
 - We can consider the model above average in correctly predicting the game outcome.
 - To have an overall idea of both models' ability to distinguish between classes (game outcomes), we will apply **ROC and AUC** methods.
 
 ### Results and Interpretations
 
-We find the following values from calculating the AUCs from the ROC graphs:
+We find the following values from calculating the **AUCs** from the **ROC** graphs:
 - **Logistic Regression:** 0.74
 - **Random Forest:** 0.82
 
 ![image](https://github.com/user-attachments/assets/707685b2-3693-4175-96e6-3e7f713b4e08)
 
-These results are consistent with our previous findings, implying Random Forest model outperforms the Logistic Regression model. 
+These results are consistent with our previous findings, implying **Random Forest** model **outperforms** the **Logistic Regression** model. 
 
-The AUC of the Random Forest actually is surprising, considering what we get from its Classification Report. The AUC value implies that the model is even stronger, than it appeared previously, in distinguishing/predicting the game outcome from the time spent per move data. Generally a model with an AUC value above **0.8** considered to be near-excellent.
+The **AUC** of the **Random Forest** is surprising, considering what we get from its **Classification Report**. The AUC value implies that the model is even stronger, than it appeared previously, in distinguishing/predicting the game outcome from the time spent per move data. Generally a model with an AUC value above **0.8** considered to be near-excellent.
 
 ---
 
 ## Future Work 💭
 
-After collecting data, conducting EDA, and applying hypothesis tests; I will be using **machine learning** applications to investigate potential predictive models based on the data, and the results of the hypotheses.
+More hypotheses can be formed and be tested with the data. Additionaly, we could use other players' data too, for stronger results.
+
+For optimizing the ML models, even more **feature engineering** can be done. New features can be added deriving from the time spent per move data, then from the obtained reports we can decide to keep the feature or not.
+
+
 
 
 ---
