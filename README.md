@@ -162,15 +162,68 @@ The data of **Rapid Games** however, yielded a surprising result. I observed tha
 
 ## Machine Learning 🤖
 
-I applied Machine Learning methods to my data, after hypothesis testing is done. I aimed to determine the game outcome, either **Win** or **Loss** from the time spent per move data pattern. I conducted **Feature Engineering** on the current data, increasing the parameters for our models to better understand/handle the pattern difference. I used two different models, **Logistic Regression** and **Random Forest**, which are often used in binary classification.
+I applied Machine Learning methods to my data, after hypothesis testing is done. I aimed to determine the game outcome, either **Win** or **Loss** from the time spent per move data pattern. I conducted **Feature Engineering** on the current data, increasing the parameters for our models to better understand/handle the pattern difference. I used two different models, **Logistic Regression** and **Random Forest**, which are often used in binary classification. Both models use %80 of my data to train and the remaining %20 of the data is used to test these models.
 
 *For details please head to the `main.ipynb` file.*
 
 ### 1. Logistic Regression
 
+The **Logistic Regression** model yielded the following **Classification Report** and **Confusion Matrix**. Note that, binary values 0 and 1 indicate the game outcome: **0 for Loss** and **1 for Win**.
+
+**Classification Report**
+| Class        | Precision | Recall | F1-Score | Support |
+| ------------ | --------- | ------ | -------- | ------- |
+| 0            | 0.78      | 0.64   | 0.70     | 129     |
+| 1            | 0.65      | 0.79   | 0.72     | 112     |
+| **Accuracy** |           |        | **0.71** | **241** |
+| Macro Avg    | 0.72      | 0.72   | 0.71     | 241     |
+| Weighted Avg | 0.72      | 0.71   | 0.71     | 241     |
+
+**Confusion Matrix**
+|              | Predicted 0 | Predicted 1 |
+| ------------ | ----------- | ----------- |
+| **Actual 0** | 82          | 47          |
+| **Actual 1** | 23          | 89          |
+
+From these tables, we can make the following interpretations:
+- Logistic Regression model yields a balanced **F1-score**, as a result of different/opposite tendencies in **Precision** and **Recall**.
+- With these scores, we could possibly say that the model is a decent one. For better results we will continue with a new model and see if we improve the accuracy.
+
 ### 2. Random Forest
 
-### Results
+The **Random Forest** model yields the following **Classification Report** and **Confusion Matrix**. Again, note that 0 indicates **Loss** games while 1 indicates **Win** games.
+
+**Classification Report**
+| Class        | Precision | Recall | F1-Score | Support |
+| ------------ | --------- | ------ | -------- | ------- |
+| 0            | 0.84      | 0.68   | 0.75     | 129     |
+| 1            | 0.70      | 0.85   | 0.77     | 112     |
+| **Accuracy** |           |        | **0.76** | **241** |
+| Macro Avg    | 0.77      | 0.77   | 0.76     | 241     |
+| Weighted Avg | 0.77      | 0.76   | 0.76     | 241     |
+
+**Confusion Matrix**
+|              | Predicted 0 | Predicted 1 |
+| ------------ | ----------- | ----------- |
+| **Actual 0** | 88          | 41          |
+| **Actual 1** | 17          | 95          |
+
+Looking at the tables, we make the following interpretations:
+- The Random Forest model certainly performs better than the Logistic Regression model.
+- We can consider the model above average in correctly predicting the game outcome.
+- To have an overall idea of both models' ability to distinguish between classes (game outcomes), we will apply **ROC and AUC** methods.
+
+### Results and Interpretations
+
+We find the following values from calculating the AUCs from the ROC graphs:
+- **Logistic Regression:** 0.74
+- **Random Forest:** 0.82
+
+![image](https://github.com/user-attachments/assets/707685b2-3693-4175-96e6-3e7f713b4e08)
+
+These results are consistent with our previous findings, implying Random Forest model outperforms the Logistic Regression model. 
+
+The AUC of the Random Forest actually is surprising, considering what we get from its Classification Report. The AUC value implies that the model is even stronger, than it appeared previously, in distinguishing/predicting the game outcome from the time spent per move data. Generally a model with an AUC value above **0.8** considered to be near-excellent.
 
 ---
 
