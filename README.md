@@ -160,7 +160,21 @@ The data of **Rapid Games** however, yielded a surprising result. I observed tha
 
 ---
 
-## Machine Learning Applications and Future Work 🤖
+## Machine Learning 🤖
+
+I applied Machine Learning methods to my data, after hypothesis testing is done. I aimed to determine the game outcome, either **Win** or **Loss** from the time spent per move data pattern. I conducted **Feature Engineering** on the current data, increasing the parameters for our models to better understand/handle the pattern difference. I used two different models, **Logistic Regression** and **Random Forest**, which are often used in binary classification.
+
+*For details please head to the `main.ipynb` file.*
+
+### 1. Logistic Regression
+
+### 2. Random Forest
+
+### Results
+
+---
+
+## Future Work 💭
 
 After collecting data, conducting EDA, and applying hypothesis tests; I will be using **machine learning** applications to investigate potential predictive models based on the data, and the results of the hypotheses.
 
