@@ -211,17 +211,43 @@ The **Random Forest** model yields the following **Classification Report** and *
 Looking at the tables, we make the following interpretations:
 - The **Random Forest** model certainly performs better than the **Logistic Regression** model.
 - We can consider the model above average in correctly predicting the game outcome.
-- To have an overall idea of both models' ability to distinguish between classes (game outcomes), we will apply **ROC and AUC** methods.
+
+### 3. XGBoost
+
+The **XGBoost** model yielded the following **Classification Report** and **Confusion Matrix**. Please note, 0 indicated **Loss** games and 1 indicates **Win** games.
+
+**Classification Report**
+| Class            | Precision | Recall | F1-Score | Support |
+| ---------------- | --------- | ------ | -------- | ------- |
+| **0**            | 0.78      | 0.70   | 0.73     | 129     |
+| **1**            | 0.69      | 0.77   | 0.73     | 112     |
+|                  |           |        |          |         |
+| **Accuracy**     |           |        | **0.73** | **241** |
+| **Macro Avg**    | 0.73      | 0.73   | 0.73     | 241     |
+| **Weighted Avg** | 0.74      | 0.73   | 0.73     | 241     |
+
+**Confusion Matrix**
+|              | **Predicted 0** | **Predicted 1** |
+| ------------ | --------------- | --------------- |
+| **Actual 0** | 90              | 39              |
+| **Actual 1** | 26              | 86              |
+
+From these tables we observe:
+- **XGBoost** model performs better than the **Logistic Regression** model, but arguably worse than the **Random Forest** model.
+- Still the model is performing solid, with a balanced **precision** and **recall** scores.
+- To have an overall idea of the three models' ability to distinguish between classes (game outcomes), we will apply **ROC and AUC** methods.
+
 
 ### Results and Interpretations
 
 We find the following values from calculating the **AUCs** from the **ROC** graphs:
 - **Logistic Regression:** 0.74
 - **Random Forest:** 0.82
+- **XGBoost:** 0.79
 
-![image](https://github.com/user-attachments/assets/707685b2-3693-4175-96e6-3e7f713b4e08)
+![image](https://github.com/user-attachments/assets/4cecd134-3289-4cfd-bf11-5fbdb38d76cd)
 
-These results are consistent with our previous findings, implying **Random Forest** model **outperforms** the **Logistic Regression** model. 
+These results are consistent with our previous findings, implying **Random Forest** model **outperforms** the **XGBoost** model slightly, which significantly **outperforms** the **Logistic Regression** model. 
 
 The **AUC** of the **Random Forest** is surprising, considering what we get from its **Classification Report**. The AUC value implies that the model is even stronger, than it appeared previously, in distinguishing/predicting the game outcome from the time spent per move data. Generally a model with an AUC value above **0.8** considered to be near-excellent.
 
@@ -229,7 +255,9 @@ The **AUC** of the **Random Forest** is surprising, considering what we get from
 
 ## Future Work 💭
 
-More hypotheses can be formed and be tested with the data. Additionaly, we could use other players' data too, for stronger results.
+More **hypotheses** can be formed and be tested with the data. Additionaly, we could use other players' data too, for stronger results.
+
+**Another ML** models for categorical data could be used to obtain even better results. Note that, the models used in this project are already the ones which yielded the best results over my data. Still, for more comprehensive and bigger datasets, another models could be more suitable.
 
 For optimizing the ML models, even more **feature engineering** can be done. New features can be added deriving from the time spent per move data, then from the obtained reports we can decide to keep the feature or not.
 
